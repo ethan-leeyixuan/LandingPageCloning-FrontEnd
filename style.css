@@ -1,0 +1,85 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  background-color: #fff;
+  color: #111;
+}
+
+/* Navbar */
+.navbar {
+  background:#161617CC;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  line-height: 1;
+  
+}
+.nav-list li{
+  line-height: 50px; /* vertically center text */
+}
+
+
+.nav-list a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s;
+  display:flex;
+  height: 100%; 
+}
+
+.nav-list a:hover {
+  color: rgba(255, 255, 255, 255);
+}
+
+.logo, .icon {
+  width: 18px;
+  height: auto;
+}
+
+
+/* sub-navigation css */
+.sub-nav-container{
+  display: none;
+  width: 100%;
+  justify-content: start;
+}
+.sub-nav-item{
+  padding: 30px;
+}
+.primary-section{
+ 
+}
+.secondary-section{
+ 
+}
+.dropdown-menu{ 
+  list-style: none;
+ 
+}
+.dropdown-menu a{ 
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 7px 11px;
+    margin-bottom: -6px;
+    color: var(--r-globalnav-color-secondary);
+    text-decoration: none;
+    transition: color .32s cubic-bezier(.4,0,.6,1);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+ 
+}
+h2{
+  color:#86868b;
+  font-size: 12px;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
